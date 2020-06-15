@@ -1,6 +1,6 @@
 
-def caculate_angel(hour, minute): 
-    if (hour > 12 or minute > 60):
+def calculate_angel(hour, minute): 
+    if (hour > 12 or minute > 60 or hour < 0 or minute < 0):
         return "incorrect input" 
     
     if (hour == 12): 
